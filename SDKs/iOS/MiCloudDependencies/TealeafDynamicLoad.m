@@ -1,5 +1,4 @@
 #import "TealeafDynamicLoad.h"
-#import <Tealeaf/TLFApplicationHelper.h>
 @implementation TealeafDynamicLoad
 + (void)load {
 #ifdef DEBUG
@@ -8,6 +7,7 @@
     //setenv("EOCORE_MICLOUD_MACHINE", "1", 1);
 #endif
 NSLog(@"Tealeaf SDK Loaded");
-[[TLFApplicationHelper sharedInstance] enableTealeafFramework];
+/* [[TLFApplicationHelper sharedInstance] enableTealeafFramework]; */
+    
 }
 @end
