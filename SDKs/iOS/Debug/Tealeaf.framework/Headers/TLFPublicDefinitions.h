@@ -95,8 +95,6 @@ extern NSString* kTLFMobileStateEvent;
 #define kConfigurableItemPercentOfScreenshotsSize           @"PercentOfScreenshotsSize"
 #define kConfigurableItemDisableTLFFrameworkFlush           @"DisableTLFFrameworkFlush"
 #define kConfigurableItemScreenshotFormat                   @"ScreenshotFormat"
-#define kConfigurableItemJavaScriptToObjectiveCProtocol     @"JavaScriptToObjectiveCProtocol"
-#define kConfigurableItemJavaScriptToObjectiveCProtocolCode @"JavaScriptToObjectiveCProtocolCode"
 #define kConfigurableItemJavaScriptInjectionDelay           @"JavaScriptInjectionDelay"
 #define kConfigurableItemFilterMessageTypes                 @"FilterMessageTypes"
 #define kConfigurableItemMessageTypesToBeFiltered           @"MessageTypes"
