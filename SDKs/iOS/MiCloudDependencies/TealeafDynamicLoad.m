@@ -1,5 +1,5 @@
 #import "TealeafDynamicLoad.h"
-#import <Tealeaf.framework/Tealeaf.h>
+#import "../Debug/Tealeaf.framework/Headers/TLFApplicationHelper.h"
 @implementation TealeafDynamicLoad
 + (void)load {
 #ifdef DEBUG
