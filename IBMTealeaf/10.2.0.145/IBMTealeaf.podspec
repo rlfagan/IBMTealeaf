@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'CoreLocation', 'WebKit'
   s.library = 'z'
   s.resource = "SDKs/iOS/Debug/Tealeaf.framework/TLFResources.bundle"
-  s.source_files = 'SDKs/iOS/MiCloudDependencies/TealeafDynamicLoad.h', 'SDKs/iOS/MiCloudDependencies/TealeafDynamicLoad.m', 'SDKs/iOS/Debug/Tealeaf.framework/Headers/TLFApplicationHelper.h', 'SDKs/iOS/Debug/Tealeaf.framework/Headers/TLFPublicDefinitions.h'
+  s.source_files = 'SDKs/iOS/MiCloudDependencies/TealeafDynamicLoad.h', 'SDKs/iOS/MiCloudDependencies/TealeafDynamicLoad.m', 'SDKs/iOS/Debug/Tealeaf.framework/Headers/TLFApplicationHelper.h', 'SDKs/iOS/Debug/Tealeaf.framework/Headers/TLFPublicDefinitions.h' , 'SDKs/iOS/Debug/Tealeaf.framework/Headers/TLFApplication.h', 'SDKs/iOS/Debug/Tealeaf.framework/Headers/TLFCustomEvent.h'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/"/** ' }
   s.source = { :git => 'https://github.com/ibm-watson-cxa/IBMTealeaf.git', :tag => '10.2.0.145'}
   s.vendored_frameworks = 'SDKs/iOS/Debug/Tealeaf.framework'
