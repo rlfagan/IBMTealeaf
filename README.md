@@ -47,7 +47,7 @@ If you are using Debug version of IBM Tealeaf SDK. i.e. `pod 'IBMTealeafDebug'` 
 
 ## Versioning
 
-Current stable version of IBMTealeaf SDK is 10.2.0.145
+Current stable version of IBMTealeaf SDK is 10.2.0.149
 
 
 ## License
