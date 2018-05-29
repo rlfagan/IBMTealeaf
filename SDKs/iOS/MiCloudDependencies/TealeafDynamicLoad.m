@@ -1,16 +1,19 @@
 #import "TealeafDynamicLoad.h"
-@import Tealeaf;
+#import "TLFApplicationHelper.h"
 @implementation TealeafDynamicLoad
 + (void)load {
-#ifdef DEBUG
-    setenv("EODebug", "1", 1);
-    setenv("TLF_DEBUG", "1", 1);
-    setenv("TLF_AUTO_ENABLE", "1", 1);
-    //setenv("EOCORE_MICLOUD_MACHINE", "1", 1);
-#endif
-    //NSLog(@"Tealeaf SDK Loaded");
-    //[[TLFApplicationHelper sharedInstance] enableTealeafFramework];
-    
+
+    char* autoEnableTealeaf = getenv("TLF_AUTO_ENABLE");
+    if( autoEnableTealeaf )
+    {
+        NSString* autoEnableTealeafStr = [NSString stringWithUTF8String:autoEnableTealeaf];
+        if( autoEnableTealeafStr && ([autoEnableTealeafStr containsString:@"1"] == YES) )
+        {
+            NSLog(@"Auto loading Tealeaf SDK");
+            [[TLFApplicationHelper sharedInstance] enableTealeafFramework];
+            DLog(@"Tealeaf SDK Loaded");
+        }
+    }
 }
 @end
 
