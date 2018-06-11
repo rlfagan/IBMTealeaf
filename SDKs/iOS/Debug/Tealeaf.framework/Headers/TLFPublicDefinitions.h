@@ -181,7 +181,3 @@ extern NSString* kTLFMobileStateEvent;
 - (BOOL)logPrintScreenEvent;
 - (BOOL)logJSONMessagePayloadStr:(NSString*)payload;
 @end
-
-
-
-
