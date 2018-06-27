@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.platforms = { :ios => "9.0" }
   s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'CoreLocation', 'WebKit'
   s.library = 'z'
-  s.resource = "SDKs/iOS/Debug/TealeafReactNative.framework/TLFResources.bundle"
+  s.resource = "SDKs/iOS/Debug/TealeafReactNative/TLFResources.bundle"
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/"/** ' }
   s.source = { :git => 'https://github.com/ibm-watson-cxa/IBMTealeaf.git', :tag => '10.2.0.186'}
-  s.vendored_frameworks = 'SDKs/iOS/Debug/TealeafReactNative.framework'
+  s.vendored_frameworks = 'SDKs/iOS/Debug/TealeafReactNative/TealeafReactNative.framework'
   s.dependency 'EOCoreDebug'
 end
