@@ -115,7 +115,6 @@ extern NSString* kTLFMobileStateEvent;
 #define kConfigurableItemAutoWebViewCaptureDelay                            @"AutoWebViewCaptureDelay"
 #define kConfigurableItemDefaultAutoLayoutDelay                             @"DefaultAutoLayoutDelay"
 #define kConfigurableItemDisableKeyboardCapture                             @"DisableKeyboardCapture"
-#define kConfigurableItemLogViewLayoutOnScreenTransitionAlerts              @"webViewInjectionForDisabledLogViewLayout"
 #define kConfigurableItemEnableWebViewInjectionForDisabledAutoCapture       @"EnableWebViewInjectionForDisabledAutoCapture"
 #define kConfigurableItemDisableAlertAutoCapture                            @"DisableAlertAutoCapture"  
 #define kConfigurableItemDisableAlertBackgroundForDisabledLogViewLayout     @"DisableAlertBackgroundForDisabledLogViewLayout"
@@ -181,7 +180,3 @@ extern NSString* kTLFMobileStateEvent;
 - (BOOL)logPrintScreenEvent;
 - (BOOL)logJSONMessagePayloadStr:(NSString*)payload;
 @end
-
-
-
-
