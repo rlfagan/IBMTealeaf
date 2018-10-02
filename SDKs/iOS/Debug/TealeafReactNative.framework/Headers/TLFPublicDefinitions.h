@@ -119,6 +119,7 @@ extern NSString* kTLFMobileStateEvent;
 #define kConfigurableItemDisableAlertAutoCapture                            @"DisableAlertAutoCapture"  
 #define kConfigurableItemDisableAlertBackgroundForDisabledLogViewLayout     @"DisableAlertBackgroundForDisabledLogViewLayout"
 #define kConfigurableItemInitialZIndex                                      @"InitialZIndex"
+#define kConfigurableItemUseXpathId                                         @"UseXpathId"
 
 // TLF Public Protocols
 @protocol TLFSavePrintScreenOperationDelegate <NSObject>

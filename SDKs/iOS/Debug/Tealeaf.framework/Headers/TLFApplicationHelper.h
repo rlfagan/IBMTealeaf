@@ -5,6 +5,7 @@
 //  restricted by GSA ADP Schedule Contract with IBM Corp.
 //
 #import <Foundation/Foundation.h>
+#import <WebKit/WebKit.h>
 #import "TLFPublicDefinitions.h"
 
 @interface TLFApplicationHelper : NSObject <TLFLibDelegate, TLFApplicationHelperJSProtocol>
@@ -197,17 +198,17 @@
 /**
  Confirms if given NSURLRequest coming from javascript is a Tealeaf request URL. Typically used when manually instrumenting the application.
  @param request - NSMutableURLRequest object to be checked if is a Tealeaf request URL.
- @param webView - UIWebView object which contains Tealeaf hybrid bridge javascript code.
+ @param webView - UIWebView or WKWebView object which contains Tealeaf hybrid bridge javascript code.
  @return YES when Tealeaf hybrid bridge request else NO.
  */
-- (BOOL) isTealeafHybridBridgeRequest:(NSURLRequest*)request webView:(UIWebView*)webView;
+- (BOOL) isTealeafHybridBridgeRequest:(NSURLRequest*)request webView:(id)webView;
 
 /**
  Injects Tealeaf hybrid bridge javascript code into the webpage loaded into UIWebView. Typically used when manually instrumenting the application.
- @param webView - UIWebView object into which Tealeaf hybrid bridge javascript code needs to be injected.
+ @param webView - UIWebView or WKWebView object into which Tealeaf hybrid bridge javascript code needs to be injected.
  @return YES when Tealeaf hybrid bridge javascript code injection is successful request else NO.
  */
-- (BOOL) InjectTealeafHybridBridgeOnWebViewDidFinishLoad:(UIWebView *)webView;
+- (BOOL) InjectTealeafHybridBridgeOnWebViewDidFinishLoad:(id)webView;
 
 /**
  UIApplication sendEvent API which needs to be overriden in case developers are using their own class derived from UIApplication. Please see UIApplication documentation for details.
