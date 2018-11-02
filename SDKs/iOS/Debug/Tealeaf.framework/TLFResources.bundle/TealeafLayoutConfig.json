@@ -7,7 +7,7 @@
             "takeScreenShot": false,
             "isWebView": false,
             "numberOfWebviews": 0,
-            "UserEvents": false
+            "CaptureScreenContents": false
         }
     },
     "AppendMapIds": {
