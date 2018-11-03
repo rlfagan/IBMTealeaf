@@ -25,13 +25,13 @@ Uncomment use_frameworks
 
 `use_frameworks!`
 
-In the respective targets for your project in the Podfile add the following line if you want to use IBM Tealeaf SDK's release version
+In the respective targets for your project in the Podfile add the following line if you want to use IBM Tealeaf SDK's release version which needs to be used in your production version of your application.
 
 `pod 'IBMTealeaf'`
 
-In the respective targets for your project in the Podfile add the following line if you want to use IBM Tealeaf SDK's release version
+In the respective targets for your project in the Podfile add the following line if you want to use IBM Tealeaf SDK's release version with version number. Otherwise you will get the beta version that might new feature or fixes which have not been full tested or approved.
 
-`pod 'IBMTealeafDebug'`
+`pod 'IBMTealeafDebug', 10.2.0.264`
 
 
 Remember you can use only one of  `pod 'IBMTealeaf'` and `pod 'IBMTealeafDebug'`. Do not use both at the same time. 
@@ -43,7 +43,7 @@ If you are using Debug version of IBM Tealeaf SDK. i.e. `pod 'IBMTealeafDebug'` 
 
 ## Versioning
 
-Current stable version of IBMTealeaf SDK is 10.2.0.149
+Current stable version of IBMTealeaf SDK is 10.2.0.264
 
 
 ## License
