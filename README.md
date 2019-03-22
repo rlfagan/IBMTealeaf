@@ -7,7 +7,7 @@ IBM Tealeaf is a customer behavioral analytics SDK as documented [here](https://
 
 ### Prerequisites
 
-You need to have recent cocoapods version installed on your Mac OS. Current version is 1.4.0. Please refer to cocoapods website for the details.
+You need to have recent cocoapods version installed on your Mac OS. Current version is 1.6.1. Please refer to cocoapods website for the details.
 
 For SDK prerequisites and documentation, please refer to the SDK documentation [here](https://developer.ibm.com/customer-engagement/docs/watson-marketing/ibm-watson-customer-experience-analytics/ibm-watson-customer-experience-analytics-mobile-basic-edition/)
 
