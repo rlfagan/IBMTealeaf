@@ -29,19 +29,8 @@ typedef NS_ENUM(NSUInteger, TLFScreenViewType) {
 #endif
 typedef NS_ENUM(int, kTLFMonitoringLevelType) {
     kTLFMonitoringLevelIgnore = 0,
-    kTLFMonitoringLevelError = 1,
-    kTLFMonitoringLevelWarning = 2,
-    kTLFMonitoringLevelVerbose = 3,
-    kTLFMonitoringLevelInfo = 4,
-    kTLFMonitoringLevelDebug = 5,
-    
-    //Deprecated
-    kTLFMonitoringLevelUnknown = kTLFMonitoringLevelIgnore,
-    kTLFMonitoringLevel0 = kTLFMonitoringLevelIgnore,
-    kTLFMonitoringLevel1 = kTLFMonitoringLevelError,
-    kTLFMonitoringLevel2 = kTLFMonitoringLevelWarning,
-    kTLFMonitoringLevel3 = kTLFMonitoringLevelVerbose,
-    kTLFMonitoringLevelNotLog = kTLFMonitoringLevelIgnore
+    kTLFMonitoringLevelCellularAndWiFi = 1,
+    kTLFMonitoringLevelWiFi = 2,
 };
 
 extern NSString* kTLFButtonClickEvent;

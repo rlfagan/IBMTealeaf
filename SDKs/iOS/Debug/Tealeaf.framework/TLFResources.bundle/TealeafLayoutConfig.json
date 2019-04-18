@@ -9,7 +9,8 @@
             "numberOfWebviews": 0,
             "CaptureScreenContents": true,
             "CaptureScreenVisits": true,
-            "CaptureLayoutOn": 2
+            "CaptureLayoutOn": 2,
+            "CaptureScreenshotOn": 0
         },
         "MyViewControllerExample": {
             "do": false,
