@@ -11,6 +11,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (TealeafEarlyLoads)
+/*
+ Please read Implementation file for details. Please uncomment methods as needed and as suggested in there.
+*/
 +(void)tealeafEarlyLoadWebView;
 +(void)tealeafDoNotInjectForUIViewController;
 +(void)tealeafDoNotInjectForUITableView;

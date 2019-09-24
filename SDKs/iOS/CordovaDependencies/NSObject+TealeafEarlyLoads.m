@@ -13,73 +13,96 @@
 #import "NSObject+TealeafEarlyLoads.h"
 
 @implementation NSObject (TealeafEarlyLoads)
-+(void)tealeafEarlyLoadWebView
+
+// Uncomment this method if you WANT tealeaf to inject WebView early (even before Tealeaf is enabled)
+/*+(void)tealeafEarlyLoadWebView
 {
     return;
 }
-/*
+*/
 
- Uncomment this method if you do not want Tealeaf to automatically inject into UIViewController
+// Uncomment this method if you do not want Tealeaf to automatically inject into UIViewController
+/*
 +(void)tealeafDoNotInjectForUIViewController
 {
     return;
 }
+*/
  
- Uncomment this method if you do not want Tealeaf to automatically inject into UITableView
+// Uncomment this method if you do not want Tealeaf to automatically inject into UITableView
+/*
 +(void)tealeafDoNotInjectForUITableView
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into UITableViewCell
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into UITableViewCell
+/*
 +(void)tealeafDoNotInjectForUITableViewCell
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into UIImage
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into UIImage
+/*
 +(void)tealeafDoNotInjectForUIImage
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into UIAlertAction
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into UIAlertAction
+/*
 +(void)tealeafDoNotInjectForUIAlertAction
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into UIPageControl
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into UIPageControl
+/*
 +(void)tealeafDoNotInjectForUIPageControl
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into UIPickerView
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into UIPickerView
+/*
 +(void)tealeafDoNotInjectForUIPickerView
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into UIDatePicker
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into UIDatePicker
+/*
 +(void)tealeafDoNotInjectForUIDatePicker
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into NSData
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into NSData
+/*
 +(void)tealeafDoNotInjectForNSData
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into UIWebView
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into UIWebView
+/*
 +(void)tealeafDoNotInjectForUIWebView
 {
     return;
 }
- 
- Uncomment this method if you do not want Tealeaf to automatically inject into WKWebView
+*/
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into WKWebView
+/*
 +(void)tealeafDoNotInjectForWKWebView
 {
     return;
