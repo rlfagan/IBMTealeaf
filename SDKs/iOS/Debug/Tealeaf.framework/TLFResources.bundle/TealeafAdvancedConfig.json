@@ -1,5 +1,5 @@
 {
-  "LibraryVersion": "10.4.28",
+  "LibraryVersion": "10.4.30",
   "FilterMessageTypes": false,
   "MessageTypes": "4,5,6",
   "AddMessageTypeHeader": true,
@@ -40,7 +40,7 @@
   "UseJPGForReplayImagesExtension": false,
   "pageControl:valueChanged": 1,
   "autolog:pageControl": 1,
-  "autolog:textBox:_searchFieldEndEditing": 1,
+  "autolog:textBox:_searchFieldEndEditing": 0,
   "DisableKeyboardCapture": false,
   "EnableWebViewInjectionForDisabledAutoCapture": true,
   "DisableAlertAutoCapture": false,
