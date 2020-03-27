@@ -25,4 +25,5 @@
 +(void)tealeafDoNotInjectForUIDatePicker;
 +(void)tealeafDoNotInjectForNSData;
 +(void)tealeafDoNotInjectForWKWebView;
++(void)tealeafDoNotInjectForNSURLSession;
 @end

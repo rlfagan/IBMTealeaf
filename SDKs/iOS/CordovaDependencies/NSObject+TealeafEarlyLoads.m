@@ -100,4 +100,12 @@
     return;
 }
 */
+
+// Uncomment this method if you do not want Tealeaf to automatically inject into NSURLSession
+/*
++(void)tealeafDoNotInjectForNSURLSession
+{
+    return;
+}
+*/
 @end

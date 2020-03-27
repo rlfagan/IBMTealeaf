@@ -6,8 +6,6 @@
 	<string>c7759ff3abb1435993e99a52ba6c0c96</string>
 	<key>CaptureNativeGesturesOnWebview</key>
 	<false/>
-	<key>connection</key>
-	<integer>5</integer>
 	<key>DisableAutoInstrumentation</key>
 	<false/>
 	<key>GetImageDataOnScreenLayout</key>
@@ -65,6 +63,8 @@
 	<real>1.5</real>
 	<key>PostMessageUrl</key>
 	<string>http://collector.tealeaf.ibmcloud.com/collector/collectorPost</string>
+	<key>DoPostOnScreenChange</key>
+	<false/>
 	<key>printScreen</key>
 	<integer>2</integer>
 	<key>ScreenshotFormat</key>
