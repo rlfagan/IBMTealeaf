@@ -78,6 +78,8 @@
 	<integer>30</integer>
 	<key>SessionizationCookieName</key>
 	<string>TLTSID</string>
+	<key>CookieSecure</key>
+	<false/>
 	<key>SetGestureDetector</key>
 	<true/>
 </dict>
