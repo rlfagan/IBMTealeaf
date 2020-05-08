@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/ibm-watson-cxa/IBMTealeaf'
   s.summary = 'Acoustic Tealeaf iOS SDK '
   s.platforms = { :ios => "9.0" }
-  s.source = { :git => 'https://github.com/ibm-watson-cxa/IBMTealeaf.git', :tag => '10.6.11'}
+  s.source = { :git => 'https://github.com/ibm-watson-cxa/IBMTealeaf.git', :tag => '10.6.12'}
   s.default_subspec = 'Core'
   s.subspec 'Core' do |core|
     core.frameworks = 'SystemConfiguration', 'CoreTelephony', 'CoreLocation', 'WebKit'
