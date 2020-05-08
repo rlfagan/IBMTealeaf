@@ -213,6 +213,13 @@
 - (BOOL)logPrintScreenEvent;
 
 /**
+ Requests that the framework log an image as a background in a type 10 screen layout event.
+ @param image - UIImage object that needs to be added as a background for the layout
+ @return if the event was successfully logged or not.
+ */
+- (BOOL)logScreenLayoutWithImage:(UIImage *)image;
+
+/**
  Requests that the framework logs the layout of the screen
  @param viewController - UIViewController object whose layout needs to be logged
  @return if the event was successfully logged or not.
