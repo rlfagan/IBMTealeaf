@@ -6,17 +6,14 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/ibm-watson-cxa/IBMTealeaf'
   s.summary = 'Acoustic Tealeaf iOS SDK '
   s.platforms = { :ios => "9.0" }
-  s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'CoreLocation', 'WebKit'
-  s.library = 'z'
-  s.resource = "SDKs/iOS/Debug/TealeafReactNative.framework/TLFResources.bundle"
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/SDKs/iOS/Debug/TealeafReactNative.framework/Headers/"/** ' }
   s.source = { :git => 'https://github.com/ibm-watson-cxa/IBMTealeaf.git', :tag => '10.6.11'}
-  s.vendored_frameworks = 'SDKs/iOS/Debug/TealeafReactNative.framework'
-  s.dependency 'EOCoreDebug'
-  s.subspec 'MD5' do |md5|
-    md5.dependency 'TealeafMD5Debug'
-  end
-  s.subspec 'SHA512' do |sha512|
-    sha512.dependency 'TealeafSHA2Debug'
+  s.default_subspec = 'Core'
+  s.subspec 'Core' do |core|
+    core.frameworks = 'SystemConfiguration', 'CoreTelephony', 'CoreLocation', 'WebKit'
+    core.library = 'z'
+    core.resource = "SDKs/iOS/Debug/TealeafReactNative.framework/TLFResources.bundle"
+    core.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/SDKs/iOS/Debug/TealeafReactNative.framework/Headers/"/** ' }
+    core.vendored_frameworks = 'SDKs/iOS/Debug/TealeafReactNative.framework'
+    core.dependency 'EOCoreDebug'
   end
 end
