@@ -34,6 +34,7 @@ In the respective targets for your project in the Podfile add the following line
 
 Remember you can use only one of  `pod 'IBMTealeaf'` and `pod 'IBMTealeafDebug'`. Do not use both at the same time.
 
+
 ### Choosing A Suitable Hashing Library
 Starting Tealeaf version 10.6.20 onwards, the SDKs support 3 different hashing algorithms. SHA256, SHA512 and MD5; default being SHA256. If you want to use SHA256 no additional integration steps are required. Previously Tealeaf supported MD5 only and was the default algorithm. Apple is deprecating the MD5 APIs, hence we are moving to SHA2.
 
@@ -46,6 +47,10 @@ Starting Tealeaf version 10.6.20 onwards, the SDKs support 3 different hashing a
   ###### Using MD5
   Instead of `pod 'IBMTealeaf'` or `pod 'IBMTealeafDebug'` in your Podfile, please use `pod 'IBMTealeaf/MD5'` or `pod 'IBMTealeafDebug/MD5'`
 
+  ###### Important Note
+  Please do use $(inherited) flag in your application target's "Other Linker Settings" This will ensure all the pods are linked correctly.
+  
+  When your application starts, MD5 and SHA512 hashing libraries print their versions in the console log. Forgetting to set $(inherited) flag can be one reason for it. If MD5 or SHA512 is not linked properly, Tealeaf will use built-in SHA256 default algorithm.
 
 You may read more about Hashing Libraries [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/hashing-libraries-for-computing-unique-ids-md5-sha256-and-sha512)
 
