@@ -20,7 +20,12 @@
     return;
 }
 */
-
+// Uncomment this method if you do not want Tealeaf to automatically inject into UIView
+/*
++(void)tealeafDoNotInjectForUIView
+{
+}
+*/
 // Uncomment this method if you do not want Tealeaf to automatically inject into UIViewController
 /*
 +(void)tealeafDoNotInjectForUIViewController

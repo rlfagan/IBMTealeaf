@@ -15,6 +15,7 @@
  Please read Implementation file for details. Please uncomment methods as needed and as suggested in there.
 */
 +(void)tealeafEarlyLoadWebView;
++(void)tealeafDoNotInjectForUIView;
 +(void)tealeafDoNotInjectForUIViewController;
 +(void)tealeafDoNotInjectForUITableView;
 +(void)tealeafDoNotInjectForUITableViewCell;
