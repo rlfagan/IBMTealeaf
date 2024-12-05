@@ -1,4 +1,6 @@
 # IBMTealeaf
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2FIBMTealeaf.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2FIBMTealeaf?ref=badge_shield)
+
 
 IBM Tealeaf is a customer behavioral analytics SDK as documented [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions)
 
@@ -65,3 +67,6 @@ If you are using Debug version of IBM Tealeaf SDK. i.e. `pod 'IBMTealeafDebug'` 
 ## License
 
 License file can be read [here](https://github.com/ibm-watson-cxa/IBMTealeaf/tree/master/Licenses)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2FIBMTealeaf.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2FIBMTealeaf?ref=badge_large)
